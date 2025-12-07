@@ -1,0 +1,27 @@
+You are designing a complete AI-native textbook project for “Physical AI & Humanoid Robotics,” following the requirements of the Panaversity Hackathon. Produce a crystal-clear specification that includes:
+
+Book Scope & Goals — A full Docusaurus-based textbook teaching Physical AI, ROS 2, Gazebo, Unity, Isaac Sim, VLA, and humanoid robotics.
+
+Core Deliverables —
+
+Docusaurus book structure
+
+Chapter list + learning outcomes
+
+RAG chatbot (FastAPI + Qdrant + Neon + OpenAI Agents)
+
+Signup/Signin with Better-Auth
+
+Personalization button per chapter
+
+Urdu translation button per chapter
+
+Bonus: Claude Code Subagents & Skills
+
+Technical Architecture — Book generation pipeline, folder structure, backend services, data flow, frontend integration, and deployment plan (GitHub Pages or Vercel).
+
+Constraints & Requirements — Must be fully reproducible, consistent, and implementable inside Claude Code using iterative TDD-style tasks.
+
+Acceptance Criteria — Clear pass/fail for each feature.
+
+Generate a professional, structured specification

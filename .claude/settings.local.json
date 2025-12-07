@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir:*)",
+      "Bash(git fetch:*)",
+      "Bash(powershell.exe -Command:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

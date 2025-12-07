@@ -1,0 +1,50 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bodyGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#e0e0e0"/>
+    </linearGradient>
+    <linearGradient id="headGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f0f0f0"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Robot body with gradient -->
+  <rect x="70" y="70" width="60" height="80" rx="10" fill="url(#bodyGradient)" stroke="#ffffff" stroke-width="2" filter="url(#glow)"/>
+
+  <!-- Robot head with gradient -->
+  <circle cx="100" cy="50" r="25" fill="url(#headGradient)" stroke="#ffffff" stroke-width="2" filter="url(#glow)"/>
+
+  <!-- Robot eyes with shine effect -->
+  <circle cx="90" cy="45" r="6" fill="#000000"/>
+  <circle cx="110" cy="45" r="6" fill="#000000"/>
+  <circle cx="89" cy="44" r="2" fill="#ffffff"/>
+  <circle cx="109" cy="44" r="2" fill="#ffffff"/>
+
+  <!-- Robot mouth with rounded rectangle -->
+  <rect x="85" y="58" width="30" height="6" rx="3" fill="#000000"/>
+
+  <!-- Robot arms with gradient -->
+  <line x1="55" y1="85" x2="145" y2="85" stroke="url(#bodyGradient)" stroke-width="8" stroke-linecap="round"/>
+  <line x1="55" y1="110" x2="145" y2="110" stroke="url(#bodyGradient)" stroke-width="8" stroke-linecap="round"/>
+
+  <!-- Robot legs with gradient -->
+  <line x1="85" y1="150" x2="85" y2="180" stroke="url(#bodyGradient)" stroke-width="8" stroke-linecap="round"/>
+  <line x1="115" y1="150" x2="115" y2="180" stroke="url(#bodyGradient)" stroke-width="8" stroke-linecap="round"/>
+
+  <!-- Decorative elements -->
+  <circle cx="100" cy="90" r="10" fill="none" stroke="#000000" stroke-width="2" stroke-dasharray="3,3"/>
+  <rect x="95" y="120" width="10" height="10" fill="#000000" rx="2"/>
+
+  <!-- Chest panel details -->
+  <rect x="85" y="85" width="30" height="20" rx="5" fill="none" stroke="#000000" stroke-width="1" stroke-dasharray="2,2"/>
+  <circle cx="100" cy="95" r="3" fill="#000000"/>
+</svg>
